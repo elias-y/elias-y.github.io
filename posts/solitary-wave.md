@@ -1,6 +1,7 @@
 ---
 title: "Solitary Waves in the Linear Shallow Water Equation"
 date: 2025-12-10
+layout: post
 ---
 
 {% include mathjax.html %}
