@@ -16,7 +16,7 @@ body {
 
 /* === Page-Specific Backgrounds === */
 .cv-page {
-  background-image: url('backgrounds/mountains.png'); /* override if needed */
+  background-image: url('backgrounds/math.jpg'); /* override if needed */
 }
 
 /* === CV Page Layout (only this page uses flex) === */
