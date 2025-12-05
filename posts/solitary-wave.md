@@ -29,12 +29,12 @@ $$
 
 These satisfy
 
-\[
+$$
 w_{+t} + c w_{+x} = 0, \qquad
 w_{-t} - c w_{-x} = 0,
-\]
+$$
 
-meaning \(w_+\) moves right and \(w_-\) moves left.
+meaning $w_+$ moves right and $w_-$ moves left.
 
 ## Pure Right-Moving Solutions
 
