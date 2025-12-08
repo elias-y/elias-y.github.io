@@ -15,7 +15,7 @@ In this post we derive conditions under which the linear shallow water equations
 We study the linear SWE system:
 
 $$
-h_t + \bar h\, v_x = 0, \qquad
+h_t + \bar h\, v_x = 0, \\
 v_t + g\, h_x = 0.
 $$
 
