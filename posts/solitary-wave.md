@@ -50,7 +50,7 @@ w_-(x,0) = 0
 v(x,0) = \sqrt{\frac{g}{\bar h}} h(x,0).
 $$
 
-Changing back to the physicalk variables, this yields a solution of the form:
+Changing back to the physical variables, this yields a solution of the form:
 
 $$
 \begin{aligned}
@@ -59,4 +59,4 @@ v(x,t) = v(x - ct, 0)
 \end{aligned}
 $$
 
-Exactly the solitary wave used in the assignment.
+Exactly a solitary right moving wave.
