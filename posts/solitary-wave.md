@@ -12,12 +12,12 @@ In this post we derive conditions under which the linear shallow water equations
 
 ## Governing Equations
 
-We study the linear SWE system:
+We study the linear Shallow Water Equation (SWE):
 
 $$
 \begin{aligned}
-h_t + \bar h\, v_x = 0, \\
-v_t + g\, h_x = 0.
+h_t + \bar h\, v_x = 0 \\
+v_t + g\, h_x = 0
 \end{aligned}
 $$
 
@@ -26,21 +26,23 @@ $$
 Define
 
 $$
-w_\pm = v \pm \sqrt{\frac{g}{\bar h}}\, h.
+w_\pm = v \pm \sqrt{\frac{g}{\bar h}}h
 $$
 
-These satisfy
+It is easy to check that these satisfy
 
 $$
-w_{+t} + c w_{+x} = 0, \qquad
-w_{-t} - c w_{-x} = 0,
+\begin{aligned}
+w_{+t} + c w_{+x} = 0 \\
+w_{-t} - c w_{-x} = 0
+\end{aligned}
 $$
 
-meaning $w_+$ moves right and $w_-$ moves left.
+These are constant coefficient transport equations, meaning $w_+$ moves right and $w_-$ moves left.
 
 ## Pure Right-Moving Solutions
 
-To eliminate the left-traveling wave:
+To eliminate the left-traveling wave we impose that
 
 $$
 w_-(x,0) = 0 
@@ -48,11 +50,13 @@ w_-(x,0) = 0
 v(x,0) = \sqrt{\frac{g}{\bar h}} h(x,0).
 $$
 
-This yields a solution of the form:
+Changing back to the physicalk variables, this yields a solution of the form:
 
 $$
-h(x,t) = h(x - ct, 0), \qquad
-v(x,t) = v(x - ct, 0).
+\begin{aligned}
+h(x,t) = h(x - ct, 0) \\
+v(x,t) = v(x - ct, 0)
+\end{aligned}
 $$
 
 Exactly the solitary wave used in the assignment.
