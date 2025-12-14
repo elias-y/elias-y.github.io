@@ -178,3 +178,14 @@ pre, code {
   overflow-x: auto;
   max-width: 100%;
 }
+
+/* === MathJax mobile scaling fix === */
+@media (max-width: 768px) {
+  mjx-container {
+    font-size: 130% !important;
+  }
+}
+
+mjx-container {
+  margin: 0.6em 0;
+}
