@@ -179,14 +179,6 @@ pre, code {
   max-width: 100%;
 }
 
-mjx-container {
-  margin: 0.6em 0;
-}
-
-/* Increase MathJax size on small screens */
-@media (max-width: 768px) {
-  .MathJax,
-  .mjx-container {
-    font-size: 140% !important;
-  }
+.mjx-container {
+  overflow-x: auto;
 }
