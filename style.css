@@ -179,13 +179,14 @@ pre, code {
   max-width: 100%;
 }
 
-/* === MathJax mobile scaling fix === */
-@media (max-width: 768px) {
-  mjx-container {
-    font-size: 200% !important;
-  }
-}
-
 mjx-container {
   margin: 0.6em 0;
+}
+
+/* Increase MathJax size on small screens */
+@media (max-width: 768px) {
+  .MathJax,
+  .mjx-container {
+    font-size: 140% !important;
+  }
 }
