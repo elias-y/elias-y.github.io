@@ -182,7 +182,7 @@ pre, code {
 /* === MathJax mobile scaling fix === */
 @media (max-width: 768px) {
   mjx-container {
-    font-size: 130% !important;
+    font-size: 200% !important;
   }
 }
 
